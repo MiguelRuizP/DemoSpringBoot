@@ -20,18 +20,4 @@ public class AppConfig {
 		return coche;
 	}
 	
-	@Bean
-	public List<Coche> bbdd(){
-		List<Coche> coches = new ArrayList<>();
-		
-		coches.add(new Coche("rojo", 5, "Ford Fiesta"));
-		coches.add(new Coche("amarillo", 5, "BMW"));
-		coches.add(new Coche("negro", 5, "Seat Leon"));
-		coches.add(new Coche("blanco", 3, "Ferrari"));
-		coches.add(new Coche("verde", 5, "Peugeot"));
-		
-		return coches;
-	}
-	
-	
 }

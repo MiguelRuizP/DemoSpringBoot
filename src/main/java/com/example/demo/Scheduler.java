@@ -20,7 +20,7 @@ public class Scheduler {
 	
 	// segundos - minutos - horas - dias - dia mes - dia semana
 	// https://es.wikipedia.org/wiki/Cron_(Unix)
-	@Scheduled(cron = "* * * * * *")
+	@Scheduled(cron = "0 */5 * * * *")
 	public void contadorDePuertasJob() {
 		int contador = 0;
 		for(Coche coche: bbdd) {
